@@ -1,6 +1,13 @@
 # lab-in-datascience
 4 homework and final project in the class of Lab in DS (COM-490) at EPFL. The homeworks focus on data preprocessing, ETL tasks, predictions and data visualization.  The final project illustrates the entire pipeline from extracting data on CFF database, preprocessing, shortest path algorithm and visualization.
 
+## Final Project
+In this final project we built own robust public transport route planner from a SBB dataset. Given a desired arrival time, our route planner will compute the fastest route between departure and arrival stops within a provided confidence tolerance expressed as interquartiles. For instance, "what route from A to B is the fastest at least Q% of the time if I want to arrive at B before instant T". We used the Connection Scan Algorithml, handled data with PySpark and presented resutls with ipywidget.
+
+
+      Delay Prediction  | Fastest Route
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/c5dxqDf.png)  |  ![](https://i.imgur.com/61Nhfta.png)
 
 ## Homework 1
 The project Carbosense establishes a uniquely dense CO2 sensor network across Switzerland to provide near-real time information on man-made emissions and CO2 uptake by the biosphere. The main goal of the project is to improve the understanding of the small-scale CO2 fluxes in Switzerland and concurrently to contribute to a better top-down quantification of the Swiss CO2 emissions. The Carbosense network has a spatial focus on the City of Zurich where more than 50 sensors are deployed. Network operations started in July 2017.
