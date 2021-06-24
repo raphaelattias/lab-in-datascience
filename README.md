@@ -3,8 +3,6 @@
 
 ## Final Project
 In this final project we built own robust public transport route planner from a SBB dataset. Given a desired arrival time, our route planner will compute the fastest route between departure and arrival stops within a provided confidence tolerance expressed as interquartiles. For instance, "what route from A to B is the fastest at least Q% of the time if I want to arrive at B before instant T". We used the Connection Scan Algorithml, handled data with PySpark and presented resutls with ipywidget.
-
-
       Delay Prediction  | Fastest Route
 :-------------------------:|:-------------------------:
 ![](https://i.imgur.com/c5dxqDf.png)  |  ![](https://i.imgur.com/61Nhfta.png)
